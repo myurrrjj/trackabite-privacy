@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — TrackABite</title>
+<style>
+  :root { --fg:#1a1a1a; --muted:#5a5a5a; --line:#e2e2e2; --accent:#166534; --bg:#ffffff; }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; font-size:17px;
+  }
+  main { max-width:760px; margin:0 auto; padding:48px 22px 96px; }
+  h1 { font-size:1.9rem; line-height:1.25; margin:0 0 6px; }
+  .updated { color:var(--muted); font-size:.95rem; margin:0 0 28px; }
+  h2 { font-size:1.2rem; margin:36px 0 10px; }
+  h3 { font-size:1.02rem; margin:22px 0 6px; }
+  p, li { color:var(--fg); }
+  ul { padding-left:22px; }
+  li { margin:6px 0; }
+  a { color:var(--accent); }
+  .lead { font-size:1.02rem; }
+  .summary { background:#f4f7f4; border:1px solid var(--line); border-radius:12px; padding:18px 22px; margin:26px 0; }
+  .summary h2 { margin-top:0; }
+  hr { border:0; border-top:1px solid var(--line); margin:40px 0; }
+  footer { color:var(--muted); font-size:.9rem; margin-top:40px; }
+  strong { font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Privacy Policy for TrackABite</h1>
+  <p class="updated">Last updated: 12 October 2026</p>
+
+  <p class="lead">
+    TrackABite (&ldquo;the app&rdquo;) is an Android application for tracking meals and nutrition.
+    This policy explains what information the app handles, how it is used, who it is shared with,
+    and the choices you have. It applies to the TrackABite app only.
+  </p>
+
+  <p>
+    Developer: Mayur Jindal<br>
+    Contact: <a href="mailto:mayurjindal905@gmail.com">mayurjindal905@gmail.com</a>
+  </p>
+
+  <div class="summary">
+    <h2>In short</h2>
+    <ul>
+      <li>The app has <strong>no accounts and no sign-in</strong>, and we do not run a server that stores your data.</li>
+      <li>Your meal logs, saved meals and settings are stored <strong>only on your device</strong>.</li>
+      <li>When you log a meal, the description you type &mdash; and any photo you attach &mdash; is sent to
+          <strong>Google&rsquo;s Gemini API</strong> to be analysed. That is the only time your data leaves your device.</li>
+      <li>We do not show ads, we do not use analytics or tracking, and we do not sell your data.</li>
+    </ul>
+  </div>
+
+  <h2>1. Information the app handles</h2>
+
+  <h3>a) Information you provide</h3>
+  <ul>
+    <li><strong>Meal descriptions</strong> &mdash; the text you type describing what you ate.</li>
+    <li><strong>Photos</strong> &mdash; an image you take with the camera or select from your gallery, if you choose to attach one.</li>
+  </ul>
+  <p>These are used to estimate the nutritional content of the meal.</p>
+
+  <h3>b) Your Gemini API key</h3>
+  <p>
+    The app requires you to provide your own Google Gemini API key. The key is stored on your device
+    using Android&rsquo;s encrypted storage (backed by the Android Keystore) and is used only to authenticate
+    requests to Google&rsquo;s Gemini API. The developer does not receive or store your key.
+  </p>
+
+  <h3>c) Information stored on your device</h3>
+  <ul>
+    <li>Meal logs (nutritional values, timestamps, and the text or photo you logged).</li>
+    <li>Saved or favourite meals.</li>
+    <li>Your daily calorie target and other preferences.</li>
+  </ul>
+  <p>None of this is uploaded to the developer.</p>
+
+  <h3>d) Health data (Health Connect)</h3>
+  <p>
+    If you grant permission, the app reads your &ldquo;total calories burned&rdquo; and &ldquo;active calories burned&rdquo;
+    from Android Health Connect, so it can show how your intake compares with your activity. This data is read
+    on your device and is not transmitted to the developer.
+  </p>
+
+  <h3>e) Device permissions</h3>
+  <ul>
+    <li><strong>Camera</strong> &mdash; to photograph food you want to log.</li>
+    <li><strong>Internet</strong> &mdash; to reach Google&rsquo;s Gemini API.</li>
+    <li><strong>Health Connect read permissions</strong> &mdash; for the two data types described above.</li>
+  </ul>
+  <p>You can grant or revoke any of these at any time in your device settings.</p>
+
+  <h2>2. How your information is used</h2>
+  <ul>
+    <li>To analyse a meal and estimate its calories, macronutrients and micronutrients.</li>
+    <li>To display your logs, saved meals and daily summary.</li>
+    <li>To compare the calories you consume with the calories you burn.</li>
+  </ul>
+  <p>We do not use your information for advertising, profiling, or any purpose beyond operating the app.</p>
+
+  <h2>3. Sharing with third parties</h2>
+  <p>
+    The only third party involved is <strong>Google</strong>, through its Gemini API:
+  </p>
+  <ul>
+    <li>
+      When you log a meal, the meal description and &mdash; if you attach one &mdash; the photo are transmitted over an
+      encrypted connection to Google&rsquo;s Gemini API, operated by Google, in order to generate the nutritional analysis.
+    </li>
+    <li>
+      Google processes this data under its own terms and privacy policy. See
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google&rsquo;s Privacy Policy</a>
+      and the Gemini API terms for details.
+    </li>
+  </ul>
+  <p>We do not share your information with anyone else, and we do not sell it.</p>
+
+  <h2>4. What the app does not do</h2>
+  <ul>
+    <li>No user accounts or sign-in.</li>
+    <li>No advertising.</li>
+    <li>No third-party analytics, crash-reporting or tracking SDKs.</li>
+    <li>No selling or renting of personal data.</li>
+    <li>No collection of your contacts, location, or advertising identifiers.</li>
+  </ul>
+
+  <h2>5. Data storage and security</h2>
+  <ul>
+    <li>All of your data is stored locally on your device.</li>
+    <li>Your Gemini API key is stored using Android&rsquo;s EncryptedSharedPreferences (AES-256, with the key held in the Android Keystore).</li>
+    <li>Data sent to Google&rsquo;s Gemini API is transmitted over HTTPS.</li>
+  </ul>
+
+  <h2>6. Retention and deletion</h2>
+  <ul>
+    <li>We do not retain your data on any server, because we do not operate one.</li>
+    <li>You can delete individual meals within the app at any time.</li>
+    <li>Uninstalling the app removes all data it stored on your device.</li>
+    <li>To delete data that Google may hold from your Gemini API usage, use the controls for your Google account.</li>
+  </ul>
+
+  <h2>7. Your choices</h2>
+  <ul>
+    <li>Revoke the camera or Health Connect permissions in your device settings.</li>
+    <li>Delete logged meals in the app, clear all app data from your device settings, or uninstall the app.</li>
+    <li>Remove your stored API key from within the app.</li>
+  </ul>
+
+  <h2>8. Children</h2>
+  <p>
+    TrackABite is not directed at children under 13, and we do not knowingly collect information from children.
+    If you believe a child has used the app, contact us and we will help you remove any local data (which, in any
+    case, lives only on the device).
+  </p>
+
+  <h2>9. Health and medical disclaimer</h2>
+  <p>
+    TrackABite provides AI-generated estimates of calories and nutrients. These are approximations for general
+    wellness and informational purposes only. The app is not a medical device and does not diagnose, treat, cure
+    or prevent any condition. It is not a substitute for advice from a qualified healthcare professional. Always
+    consult a professional about your diet, health, or any medical condition.
+  </p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>
+    We may update this policy from time to time. The &ldquo;last updated&rdquo; date above will change when we do.
+    Continued use of the app after an update means you accept the revised policy.
+  </p>
+
+  <h2>11. Contact</h2>
+  <p>
+    Questions about this policy or your data? Email
+    <a href="mailto:mayurjindal905@gmail.com">mayurjindal905@gmail.com</a>.
+  </p>
+
+  <hr>
+  <footer>This privacy policy applies to the TrackABite Android application.</footer>
+
+</main>
+</body>
+</html>
